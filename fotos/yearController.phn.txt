@@ -1,0 +1,57 @@
+yearController.phn
+Este código PHP es un controlador que maneja las operaciones CRUD (Crear, Leer, Actualizar, Eliminar) relacionadas con la entidad "Year" en una aplicación web.
+
+Crear nuevos años con datos validados.
+Obtener una lista de todos los años disponibles.
+Actualizar la información de años existentes.
+Eliminar años específicos del sistema.
+Asegurar que solo los usuarios con los permisos adecuados puedan realizar estas operaciones.
+
+wineryController.php
+Crea una nueva instancia de Winery y llama al método winery para manipular la bodega. Si la operación es exitosa, redirige al usuario al dashboard; si no, redirige a la página de la bodega con un estado de invalid.
+
+Este código es crucial para gestionar las operaciones relacionadas con las bodegas dentro del sistema. Permite:
+
+Validar si el usuario está logueado antes de proceder con las operaciones.
+Validar los datos enviados en la solicitud POST.
+Crear o manipular bodegas basadas en los datos recibidos.
+Redirigir al usuario a la página correspondiente según el resultado de la operación.
+Esto ayuda a mantener la integridad de los datos, asegurar que solo los usuarios autenticados puedan realizar estas operaciones y proporcionar una experiencia de usuario fluida al redirigir a las páginas correspondientes según el resultado de cada operación.
+
+UserProfileController.php
+Este código es crucial para gestionar las operaciones relacionadas con los usuarios dentro del sistema. Permite:
+
+Actualizar la información de la cuenta del usuario.
+Cambiar la contraseña del usuario.
+Obtener la información del usuario autenticado.
+Esto ayuda a mantener la integridad de los datos de los usuarios, asegurar que solo los usuarios autenticados puedan realizar estas operaciones y proporcionar una interfaz de administración eficiente para gestionar la información del usuario.
+
+
+userController.php
+Este controlador es fundamental para gestionar la administración de usuarios en la aplicación. Proporciona:
+
+Creación de nuevos usuarios.
+Actualización de la información de los usuarios existentes.
+Obtención de la lista de usuarios.
+Eliminación de usuarios.
+Esto permite a los administradores del sistema manejar las cuentas de los usuarios de manera eficiente y segura, asegurando que solo los usuarios con los permisos adecuados puedan realizar estas operaciones.
+
+storeController.php
+Este controlador es fundamental para gestionar la administración de tiendas en la aplicación. Proporciona:
+
+Creación de nuevas tiendas.
+Actualización de la información de las tiendas existentes.
+Obtención de la lista de tiendas.
+Eliminación de tiendas.
+Esto permite a los administradores del sistema manejar las tiendas de manera eficiente y segura, asegurando que solo los usuarios con los permisos adecuados puedan realizar estas operaciones.
+
+StockController.php
+Este controlador es fundamental para la gestión del inventario en la aplicación. Proporciona:
+
+Creación de nuevos productos en el inventario.
+Actualización del stock de productos existentes.
+Obtención de información detallada sobre el inventario y productos específicos.
+Garantiza que solo los usuarios con los permisos adecuados puedan realizar estas operaciones.
+Esto permite a los administradores del sistema manejar el inventario de manera eficiente y segura, asegurando que los datos del inventario estén actualizados y sean precisos.
+
+
